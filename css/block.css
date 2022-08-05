@@ -7,5 +7,21 @@ html {
 *::before {
     box-sizing: inherit;
 }
+/* Поведінка inline-block */
+/* .menu-item {
+    background: antiquewhite;
+}
 
+.menu-link {
+    padding: 10px 20px;
+} */
+
+/* < !-- Зображення --> */
+/* .img-wrap {
+    background-color: rgba(226, 214, 214, 0.541);
+}
+
+.content {
+    background-color: azure;
+} */
 
