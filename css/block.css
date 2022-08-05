@@ -7,21 +7,77 @@ html {
 *::before {
     box-sizing: inherit;
 }
-/* Поведінка inline-block */
-/* .menu-item {
+
+img{
+display: block;
+max-width: 100%;
+height:auto ; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+}
+
+.block{
+    width: 300px;
     background: antiquewhite;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 20px;
+}
+
+.inline{
+    width: 300px;
+        background: antiquewhite;
+        padding: 20px;
+        border: 2px solid red;
+        margin: 20px;
+}
+
+/* Поведінка inline-block */
+.menu{
+    font-size: 0;
+    display:inline-flex;
+}
+
+.menu-item {
+    /* display: inline-block; */
+    /* width: 100px; */
+    background: antiquewhite;
+    padding: 10px;
+    margin: 0px;
+    font-size: 24px;
 }
 
 .menu-link {
     padding: 10px 20px;
-} */
+}
 
 /* < !-- Зображення --> */
-/* .img-wrap {
+.img-wrap {
+    width: 200px;
     background-color: rgba(226, 214, 214, 0.541);
 }
 
 .content {
     background-color: azure;
-} */
+}
 
+/* container */
+.section{
+background: yellowgreen;
+}
+
+.container{
+    width: 1200px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left: auto;
+margin-right: auto;
+}
