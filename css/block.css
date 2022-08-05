@@ -8,10 +8,10 @@ html {
     box-sizing: inherit;
 }
 
-img{
-display: block;
-max-width: 100%;
-height:auto ; 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 h1,
@@ -20,11 +20,11 @@ h3,
 h4,
 h5,
 h6,
-p{
+p {
     margin-top: 0;
 }
 
-.block{
+.block {
     width: 300px;
     background: antiquewhite;
     padding: 20px;
@@ -32,18 +32,18 @@ p{
     margin: 20px;
 }
 
-.inline{
+.inline {
     width: 300px;
-        background: antiquewhite;
-        padding: 20px;
-        border: 2px solid red;
-        margin: 20px;
+    background: antiquewhite;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 20px;
 }
 
 /* Поведінка inline-block */
-.menu{
+.menu {
     font-size: 0;
-    display:inline-flex;
+    display: inline-flex;
 }
 
 .menu-item {
@@ -70,14 +70,14 @@ p{
 }
 
 /* container */
-.section{
-background: yellowgreen;
+.section {
+    background: yellowgreen;
 }
 
-.container{
+.container {
     width: 1200px;
-   padding-left: 20px;
-   padding-right: 20px;
-   margin-left: auto;
-margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
