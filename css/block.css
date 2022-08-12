@@ -20,7 +20,9 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul
+{
     margin-top: 0;
 }
 
@@ -43,7 +45,8 @@ p {
 /* Поведінка inline-block */
 .menu {
     font-size: 0;
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: flex;
 }
 
 .menu-item {
@@ -72,6 +75,7 @@ p {
 /* container */
 .section {
     background: yellowgreen;
+    /* padding-top: 150px; */
 }
 
 .container {
@@ -80,4 +84,59 @@ p {
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* структурні псевдокласи */
+
+/* .section p:last-child{
+    margin-bottom: 0;
+} */
+
+/* .section p:first-child{
+color: azure;
+} */
+
+/* .section p:nth-child(2){
+color: azure;
+} */
+
+/* .section p:nth-child(2n){
+color: azure;
+} */
+
+/* .section p:nth-child(n+2){
+color: azure;
+} */
+
+/* .section p:nth-child(n+3) {
+    color: azure;
+} */
+
+/* .section p:nth-last-child(n+3) {
+    color: azure;
+}  */
+
+
+.item {
+    display: inline-block;
+    background-color: blue;
+    padding: 10px 15px;
+    /* margin-right: 50px; */
+}
+
+.section li:last-child{
+    /* margin-right: 0; */
+} 
+
+.item:not(:last-child){
+margin-right: 50px;
+}
+
+.list{
+    padding-left: 0;
+    margin: 0;
+}
+
+.item:not(.red) {
+  background-color: red;
 }
